@@ -1,18 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import iniciosesion from './src/pages/inicio_sesion/inicio_sesion'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/header/headerlg';
+import InicioSesion from './pages/inicio_sesion/iniciosesion'; // Ajusta la ruta de importación según la estructura de tu proyecto
+import Registro from './pages/inicio_sesion/registrarse'; // Ajusta la ruta de importación según la estructura de tu proyecto
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>hola Urban Point</h1>
-      <iniciosesion/>
-    </>
-  )
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/iniciosesion" element={<InicioSesion />} />
+          <Route path="/registro" element={<Registro />} />
+          {/* Agrega más rutas según sea necesario */}
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
