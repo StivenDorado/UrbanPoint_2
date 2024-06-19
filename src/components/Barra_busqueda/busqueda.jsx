@@ -1,7 +1,7 @@
 // src/components/SearchBar.jsx
 import React from 'react';
-import Button from '../../components/ui/button';
-import Input from '../../components/ui/input';
+import Button from '../ui/button'; // Ajusta la ruta según la estructura de tu proyecto
+import Input from '../ui/input'; // Ajusta la ruta según la estructura de tu proyecto
 
 const SearchBar = () => {
   return (
@@ -18,9 +18,6 @@ const SearchBar = () => {
         <span className="flex items-center">
           Filtros
         </span>
-      </Button>
-      <Button variant="outline">
-        {/* Este botón está actualmente vacío, asegúrate de añadir contenido si es necesario */}
       </Button>
     </div>
   );
