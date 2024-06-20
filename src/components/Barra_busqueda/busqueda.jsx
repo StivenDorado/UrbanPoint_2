@@ -18,7 +18,7 @@ const SearchBar = () => {
         <span className="flex items-center">
           Filtros
         </span>
-      </Button>
+        </Button>
     </div>
   );
 }
