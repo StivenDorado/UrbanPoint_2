@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <SearchBar />
+        
         <Routes>
           <Route path="/iniciosesion" element={<InicioSesion />} />
           <Route path="/registro" element={<Registro />} />
