@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ConfirmaYPaga from './page/pago/ConfirmaYPaga';
+import ConfirmacionPago from './page/pago/ConfirmacionPago';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>hola Urban Point</h1>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<ConfirmaYPaga />} />
+        <Route path="/confirmacion-pago" element={<ConfirmacionPago />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App
