@@ -1,7 +1,7 @@
-export default function Component() {
+export default function landing() {
     return (
       <div className="min-h-screen bg-gray-800">
-        <header className="bg-gray-300 p-4 flex justify-between items-center">
+        {/* <header className="bg-gray-300 p-4 flex justify-between items-center">
           <button className="text-lg border border-transparent hover:border-gray-500 rounded-lg px-3 py-1">
             Logo UrbanPoint
           </button>
@@ -9,8 +9,10 @@ export default function Component() {
             <button className="border border-transparent hover:border-gray-500 rounded-lg px-3 py-1">Inicia sesión</button>
             <button className="border border-transparent hover:border-gray-500 rounded-lg px-3 py-1">Regístrate</button>
           </div>
-        </header>
-        <section className="bg-gray-200 p-4">
+        </header> */}
+
+
+        {/* <section className="bg-gray-200 p-4">
           <div className="flex items-center space-x-4 bg-white p-2 rounded-md shadow-md">
             <button className="border border-transparent hover:border-gray-100 rounded-lg px-3 py-1 flex items-center space-x-2">
               <span>Fecha de Entrada</span>
@@ -36,7 +38,7 @@ export default function Component() {
               </svg>
             </button>
           </div>
-        </section>
+        </section> */}
         <section className="p-4 grid grid-cols-3 gap-4">
           <div className="bg-gray-300 h-24 rounded-md" />
           <div className="bg-gray-300 h-24 rounded-md" />
