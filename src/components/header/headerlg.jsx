@@ -3,7 +3,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../components/ui/button'; // Ajusta la ruta según la estructura de tu proyecto
 
-
 const Header = () => {
   return (
     <header className="bg-gray-200 p-4 flex justify-between items-center w-full">
