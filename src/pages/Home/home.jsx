@@ -1,6 +1,9 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import iniciosesion from '../inicio_sesion/iniciosesion';
+
 
 export default function Component() {
   return (
@@ -8,7 +11,9 @@ export default function Component() {
       <header className="w-full bg-gray-200 p-4 flex justify-between items-center">
         <Button variant="outline">Logo UrbanPoint</Button>
         <div className="flex space-x-4">
-          <Button variant="outline">Inicia sesión</Button>
+          <Link to='../inicio_sesion/iniciosesion' ><Button variant="outline">Inicia sesión</Button></Link>
+          <link rel="stylesheet" href="../inicio_sesion/iniciosesion" />
+          
           <Button variant="outline">Regístrate</Button>
         </div>
       </header>
