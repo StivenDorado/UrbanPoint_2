@@ -1,35 +1,25 @@
+
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/header/headerlg'
-import SearchBar from './components/Barra_busqueda/busqueda'
-import Landing from './components/LADING/landing';
+import { Routes, Route } from 'react-router-dom';
+import Header from './pages/header/headerlg';
+import SearchBar from './pages/Barra_busqueda/busqueda';
+import Landing from './pages/LADING/landing';
 import Iniciosesion from './pages/inicio_sesion/iniciosesion';
+import Registrarse from './pages/inicio_sesion/registrarse';
 
 function App() {
   return (
-    <>
-    <Router>
-    <section>
-    <Header/>
-    <SearchBar/>
-    <Landing/>
-    <Routes>
-          <Route path="/Iniciosesion" element={<InicioSesion />} />
-          <Route path="/registro" element={<Registro />} />
-          {/* Agrega más rutas según sea necesario */}
-    </Routes>
-    </section>
-    </Router>
-    </>
+      <div>
+        <Routes>
+         <Route path="/" element={<Header/>}>
+         <Route path="/" element={<Landing/>} />
+         <Route path="iniciosesion" element={<Iniciosesion />} />
+         <Route path="registrarse" element={<Registrarse />} />
+         <Route path="*" element={<Landing/>} />
+         </Route>
+        </Routes>
+      </div>
   );
-  
 }
 
 export default App;
-
-
-
-
-
-
-

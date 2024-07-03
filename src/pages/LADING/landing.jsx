@@ -1,7 +1,7 @@
 
 export default function landing() {
   return (
-    <div className="min-h-screen bg-gray-800">
+    <div className=" bg-gray-800">
       <section className="p-4 grid grid-cols-3 gap-4">
         <div className="bg-gray-300 h-24 rounded-md" />
         <div className="bg-gray-300 h-24 rounded-md" />
