@@ -1,7 +1,6 @@
 // src/components/Header.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from '../../components/ui/button'; // Ajusta la ruta según la estructura de tu proyecto
 
 
 const Header = () => {
@@ -12,10 +11,10 @@ const Header = () => {
           <Link to="/" className="text-gray-800 font-bold text-xl">Logo UrbanPoint</Link>
           <div className="flex space-x-4">
             <Link to="/iniciosesion">
-              <Button variant="outline">Inicia sesión</Button>
+              <button variant="outline">Inicia sesión</button>
             </Link>
             <Link to="/registro">
-              <Button variant="outline">Regístrate</Button>
+              <button variant="outline">Regístrate</button>
             </Link>
           </div>
         </div>
