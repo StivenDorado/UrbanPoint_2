@@ -1,11 +1,14 @@
 // src/components/footer.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const footerItems = [
   {
     title: 'Asistencia',
     links: [
-      { label: 'Centro de ayuda', url: '/help-center' },
+     
+      { label: <Link to="/centro"> Centro de ayuda, </Link>},
+     
       { label: 'SofPoint', url: '/sofpoint' },
       { label: 'Antidiscriminación', url: '/anti-discrimination' },
       { label: 'Opciones de cancelación', url: '/cancellation-options' },
