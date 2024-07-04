@@ -1,3 +1,5 @@
+import Footer from "../../components/footer/Footer";
+import { Outlet , Link } from 'react-router-dom';
 
 export default function landing() {
   return (
@@ -10,11 +12,14 @@ export default function landing() {
       
       <section className="grid grid-cols-4 gap-20 p-24">
         {Array.from({ length: 16 }).map((_, index) => (
+          <Link to="/Appubli">
           <div
             key={index}
             className="flex flex-col items-center justify-center"
           >
+            
             <div className="bg-zinc-700  relative w-60 h-56 rounded-t-lg">
+             
               <button className="bg-transparent absolute top-1 right-2 rounded-lg px-1 py-1">
                 <svg
                   className="h-5 w-5"
@@ -30,7 +35,7 @@ export default function landing() {
               </button>
             </div>
             
-            <div className="flex flex-col items-center bg-gray-300 w-60 h-28 rounded-b-lg">
+            <div className="text-black flex flex-col items-center bg-gray-300 w-60 h-28 rounded-b-lg">
               <div className="flex items-center justify-center space-x-1 px-4 py-1">
                 <h3 className="text-lg font-semibold">San Eduardo</h3>
                 <span>0.0</span>
@@ -52,8 +57,10 @@ export default function landing() {
               <p className="text-lg font-bold text-center">$ 250,000.00 COP / Mes</p>
             </div>
           </div>
+          </Link>
         ))}
       </section>
+      <Footer/>
     </div>
   );
 }

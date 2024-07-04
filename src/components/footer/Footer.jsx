@@ -33,14 +33,14 @@ const footerItems = [
 
 const Footer = () => {
   return (
-    <div className="bg-gray-400 p-4 grid grid-cols-3 gap-4 text-gary-500 text-center">
+    <div className="bg-gray-400 p-4 grid grid-cols-3 gap-4 text-center">
       {footerItems.map((item, index) => (
         <div key={index}>
           <h4 className="text-gray-700 font-bold mb-2">{item.title}</h4>
           <ul>
             {item.links.map((link, linkIndex) => (
               <li key={linkIndex} className="text-black hover:underline mb-2">
-                <a href={link.url}>{link.label}</a>
+                <a href={link.url} className='text-black'>{link.label}</a>
               </li>
             ))}
           </ul>
