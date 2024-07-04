@@ -5,6 +5,9 @@ import Registrarse from "../pages/inicio_sesion/registrarse";
 import Landing from "../pages/LADING/landing";
 import SearchBar from "../pages/Barra_busqueda/busqueda";
 import Appubli from "../pages/Publicacion/Appubli";
+import ConfirmaYPaga from "../pages/pago/ConfirmaYPaga";
+import Codigo from "../pages/inicio_sesion/codigo";
+import Confirmacion from "../pages/inicio_sesion/confirmacion";
 
 export const AppRouter = () => {
     return (
@@ -16,6 +19,9 @@ export const AppRouter = () => {
        <Route path="iniciosesion" element={<Iniciosesion />}/>
        <Route path="registrarse" element={<Registrarse />}/>
        <Route path="appubli/*" element={<Appubli />}/>
+       <Route path="confirmaypaga" element={<ConfirmaYPaga />}/>
+       <Route path="codigo" element={<Codigo />}/>
+       <Route path="confirmacion" element={<Confirmacion />}/>
       </Route>
      </Routes>
     </>

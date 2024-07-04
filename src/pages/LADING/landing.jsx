@@ -1,4 +1,4 @@
-import Footer from "../../components/footer/Footer";
+import Footer from '../../components/footer/Footer';
 import { Outlet , Link } from 'react-router-dom';
 
 export default function landing() {

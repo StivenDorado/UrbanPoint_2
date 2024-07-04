@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from '../../components/footer/Footer';
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -29,7 +30,9 @@ function Appubli() {
         <Routes>
           {/* Define your routes here */}
         </Routes>
+        <Footer/>
     </>
+    
   );
 }
 

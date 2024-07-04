@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Registrarse() {
   return (
@@ -46,7 +47,9 @@ function Registrarse() {
 
         {/* Botón para iniciar sesión */}
         <div class="w-full text-center">
+          <Link to="/codigo">
           <button type="submit" class="flex  mx-auto bg-gray-600 ">Registrarse</button>
+          </Link>
         </div>
       </div>
     </div>

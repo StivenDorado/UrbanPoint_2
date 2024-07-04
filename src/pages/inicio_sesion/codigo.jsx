@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 export default function App() {
   return (
     <>
@@ -11,13 +13,15 @@ export default function App() {
             <button className="col-span-1 py-2 px-4 bg-black-450 text-white border border-transparent hover:bg-gray-600 rounded-md">
               Más opciones
             </button>
+            <Link to="/confirmacion">
             <button className="col-span-1 py-2 px-4 bg-gray-500 text-white hover:bg-gray-600 rounded-md">
               Continuar
             </button>
+            </Link>
           </div>
         </div>
       </main>
-
+      
     </>
   )
 }

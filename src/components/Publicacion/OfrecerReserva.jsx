@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import Footer from '../footer/Footer';
+
 export default function Component() {
     return (
       <article className="flex">
@@ -67,16 +70,21 @@ export default function Component() {
                 </article>
               </article>
               <article className="flex flex-col gap-2">
+                
                 <button className="bg-primary hover:bg-primary-hover text-white rounded-lg px-4 py-3 w-full">
                   RESERVAR
                 </button>
+                <Link to="/ConfirmaYPaga">
                 <button className="border border-primary text-primary hover:bg-primary-hover hover:text-white rounded-lg px-4 py-3 w-full">
                   OFRECER PRECIO
                 </button>
+                </Link>
               </article>
             </article>
           </article>
+          
       </article>
+      
     );
   }
   
