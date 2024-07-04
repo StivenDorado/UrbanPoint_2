@@ -1,8 +1,8 @@
 export default function Component() {
     return (
-      <div className="w-screen py-1 px-4 static">
+      <div className="w-screen py-1 px-4 static ">
         <div className="flex items-center justify-between mb-2 mt-2">
-          <h2 className="text-2xl font-bold">Reseñas: 0.0 (Calificaciones)</h2>
+          <h2 className="text-2xl font-bold text-black">Reseñas: 0.0 (Calificaciones)</h2>
           <div className="flex items-right gap-4">
             <button className="border rounded-sm px-2 py-1 text-sm flex items-center">
               <ShareIcon className="w-5 h-5" />

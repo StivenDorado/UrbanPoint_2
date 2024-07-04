@@ -2,7 +2,7 @@ import React from 'react';
 
 function Registrarse() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen ">
+    <div className="flex flex-col items-center h-screen ">
       <div className="space-y-3">
         <h2 className="text-3xl text-center font-bold text-black">Registro</h2>
         

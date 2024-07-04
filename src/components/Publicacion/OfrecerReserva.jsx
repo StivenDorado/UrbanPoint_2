@@ -1,16 +1,16 @@
 export default function Component() {
     return (
       <article className="flex">
-        <article className="grid gap-4 mt-3 mr-20 order-2 md:order-1 rounded-lg border border-radius px-6 py-4">
+        <article className="grid gap-4 mt-3 mr-20 order-2 md:order-1 rounded-lg border border-radius px-6 py-4 ">
             <article className="hidden md:flex items-start">
               <article className="grid gap-4">
-                <h1 className="font-bold text-3xl text-left">Habitación</h1>
-                <article className="flex items-center gap-4">
-                  <article className="flex items-center gap-0.5">
+                <h1 className="font-bold text-3xl text-left text-black">Habitación</h1>
+                <article className="flex items-center gap-4 text-black">
+                  <article className="flex items-center gap-0.5 text-black">
                     <svg className="w-5 h-5 fill-current text-primary" viewBox="0 0 24 24">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
-                    <svg className="w-5 h-5 fill-current text-primary" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 fill-current text-primary " viewBox="0 0 24 24">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
                     <svg className="w-5 h-5 fill-current text-primary" viewBox="0 0 24 24">
@@ -23,10 +23,10 @@ export default function Component() {
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
                   </article>
-                  <article className="text-sm text-muted-foreground text-left">4.93 (45 reseñas)</article>
+                  <article className="text-sm text-muted-foreground text-left ">4.93 (45 reseñas)</article>
                 </article>
                 <article>
-                  <p className="text-left">
+                  <p className="text-left text-black">
                     Habitacion hubicada en La Paz
                   </p>
                 </article>
@@ -35,7 +35,7 @@ export default function Component() {
             </article>
             <article className="grid gap-4 md:gap-10">
               <article className="grid gap-2 text-left">
-                <label htmlFor="dates" className="text-base">
+                <label htmlFor="dates" className="text-base text-black">
                   Fechas
                 </label>
                 <article className="flex justify-center gap-4">
@@ -56,7 +56,7 @@ export default function Component() {
                 </article>
               </article>
               <article className="grid gap-2">
-                <label htmlFor="guests" className="text-base">
+                <label htmlFor="guests" className="text-base text-black">
                   Huéspedes
                 </label>
                 <article className="relative">

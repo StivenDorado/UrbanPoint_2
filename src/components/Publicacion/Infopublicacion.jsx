@@ -1,7 +1,7 @@
 
 export default function Component() {
   return (
-    <article className="w-full max-w-4xl p-6 sm:p-8 md:p-10">
+    <article className="w-full max-w-4xl p-6 sm:p-8 md:p-10 text-black">
       <article className="grid gap-8">
         <article>
           <h1 className="text-3xl font-bold tracking-tight">Servicios del Hotel</h1>

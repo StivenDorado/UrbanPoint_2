@@ -1,6 +1,6 @@
 export default function Component() {
   return (
-    <article className="mx-auto justify-center grid md:grid-cols-2 gap-6 py-4 px-12">
+    <article className="mx-auto justify-center grid md:grid-cols-2 gap-6 py-4 px-12 ">
       <article className="rounded-lg h-100 bg-slate-600">
         <img
           src="/placeholder.svg"
