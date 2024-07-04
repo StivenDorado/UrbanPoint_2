@@ -4,14 +4,14 @@ const Iniciosesion = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="space-y-4">
-        <h2 className="text-3xl text-center font-bold ">Inicia Sesion</h2>
+        <h2 className="text-3xl text-center font-bold text-black">Inicia Sesion</h2>
         {/* Caja de imagenes */}
         <div className="flex gap-4  items-center justify-center">
           <img src="../../../public/BxBxlGmail.svg" width="50" alt="Image 2" className="mx-auto" />
           <img src="../../../public/MdiFacebook.svg" width="45" alt="Image 1" className="mx-auto" />
           <img src="../../../public/LogosApple.svg" width="33" alt="Image 3" className="mx-auto" />
         </div>
-        <p>Ingrese su Región y Número de teléfono </p>
+        <p className='text-black'>Ingrese su Región y Número de teléfono </p>
         {/* Formulario de información */}
         <form class="min-w-full space-y-5">
           {/* Selecciona país */}
@@ -43,11 +43,13 @@ const Iniciosesion = () => {
         </form>
         {/* Botones reguistro */}
         <br/>
-        <h2 className='text-2xl text-center  font-bold'>¡Bienvenido!</h2>
-        <br/>
+        <h2 className='text-2xl text-center text-black font-bold'>¡Bienvenido!</h2>
         
-        <div class="w-full text-center">
-          <button type="submit" class="flex  mx-auto bg-gray-600 ">Registrarse</button>
+
+        {/* Botón para iniciar sesión */}
+        <div className="text-center">
+          <h4 className="text-2xl font-bold text-black">Hola!</h4>
+          <button className="mt-4 px-4 py-2 bg-gray-600 text-white rounded-md ">Inicia Sesión</button>
         </div>
       </div>
     </div>

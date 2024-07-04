@@ -2,17 +2,17 @@ import React from 'react';
 
 function Registrarse() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="space-y-4">
-        <h2 className="text-3xl text-center font-bold">Registro</h2>
+    <div className="flex flex-col items-center justify-center h-screen ">
+      <div className="space-y-3">
+        <h2 className="text-3xl text-center font-bold text-black">Registro</h2>
         
         {/* Caja de imágenes */}
-        <div className="flex gap-4 items-center justify-center">
+        <div className="flex gap-3 items-center justify-center">
           <img src="/BxBxlGmail.svg" width="50" alt="Gmail" className="mx-auto" />
           <img src="/MdiFacebook.svg" width="45" alt="Facebook" className="mx-auto" />
           <img src="/LogosApple.svg" width="33" alt="Apple" className="mx-auto" />
         </div>
-        <p>Ingrese su Región y Número de teléfono </p>
+        <p className='text-black'>Ingrese su Región y Número de teléfono </p>
         
         {/* Formulario de información */}
         <form className="rounded-md min-w-full space-y-5">
@@ -42,13 +42,11 @@ function Registrarse() {
               </svg>
             </span>
           </div>
-          <button type="submit" className="flex mx-auto bg-gray-600">Registrarse</button>
         </form>
 
         {/* Botón para iniciar sesión */}
-        <div className="text-center">
-          <h2 className="text-2xl font-bold">Hola!</h2>
-          <button className="mt-4 px-4 py-2 bg-gray-600 text-white rounded-md">Inicia Sesión</button>
+        <div class="w-full text-center">
+          <button type="submit" class="flex  mx-auto bg-gray-600 ">Registrarse</button>
         </div>
       </div>
     </div>
