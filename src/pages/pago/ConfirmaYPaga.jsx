@@ -6,6 +6,7 @@ import InfoHabitacion from '../../components/pago/InfoHabitacion';
 import InfoPrecio from '../../components/pago/InfoPrecio';
 import InfoDireccion from '../../components/pago/InfoDireccion';
 import Header from '../../components/pago/Header';
+import Footer from '../../components/footer/Footer';
 
 const ConfirmaYPaga = () => {
   const [metodoSeleccionado, setMetodoSeleccionado] = useState('Bancolombia');
@@ -37,7 +38,9 @@ const ConfirmaYPaga = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
+    
   );
 };
 

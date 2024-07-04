@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Registrarse() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen ">
+    <div className="flex flex-col items-center h-screen ">
       <div className="space-y-3">
         <h2 className="text-3xl text-center font-bold text-black">Registro</h2>
         
@@ -46,7 +47,9 @@ function Registrarse() {
 
         {/* Botón para iniciar sesión */}
         <div class="w-full text-center">
+          <Link to="/codigo">
           <button type="submit" class="flex  mx-auto bg-gray-600 ">Registrarse</button>
+          </Link>
         </div>
       </div>
     </div>

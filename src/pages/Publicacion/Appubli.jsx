@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from '../../components/footer/Footer';
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -10,7 +11,7 @@ import Info from '../../components/Publicacion/Infopublicacion';
 function Appubli() {
   return (
     <>
-      <h2 className='text-center font-bold text-2xl mt-4'>Infomación Habitación</h2>
+      <h2 className='text-center font-bold text-2xl mt-4 text-black'>Infomación Habitación</h2>
       <HeaderFotos />
       <SeccionFotos />
       <br />
@@ -29,7 +30,9 @@ function Appubli() {
         <Routes>
           {/* Define your routes here */}
         </Routes>
+        <Footer/>
     </>
+    
   );
 }
 
