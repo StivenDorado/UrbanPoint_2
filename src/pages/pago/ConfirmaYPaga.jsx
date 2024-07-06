@@ -22,7 +22,7 @@ const ConfirmaYPaga = () => {
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <div className="p-4 border border-gray-300 rounded-lg">
+            <div className="p-4 border border-gray-600 text-black rounded-lg">
               <h2 className="text-lg font-semibold mb-4">Elige cómo quieres pagar</h2>
               <div className="mb-4">Pago único (mensualmente)</div>
               <div>Paga en total (260,000.00 COP)</div>

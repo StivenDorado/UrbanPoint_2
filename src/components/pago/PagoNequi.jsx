@@ -8,7 +8,7 @@ const PagoNequi = () =>{
         <p>Total a pagar: $260.000 COP</p>
 
 
-        <section className="p-4 border border-gray-300 rounded-lg">
+        <section className="p-4 border border-gray-600 rounded-lg mt-4 text-black">
             <b>ENVIOS A BANCOS POR NEQUI</b>
             <p>Nombre de quien recibe: Eduardo Lopez</p>
             <p>Tipo de Documento: C.C</p>

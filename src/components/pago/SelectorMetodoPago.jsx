@@ -3,7 +3,7 @@ import React from 'react';
 
 const SelectorMetodoPago = ({ metodoSeleccionado, setMetodoSeleccionado }) => {
   return (
-    <div className="p-4">
+    <div className="p-4 text-black">
       <h2 className="text-lg font-semibold mb-4">Paga con</h2>
       <div className="space-y-2">
         <div className="flex items-center">
